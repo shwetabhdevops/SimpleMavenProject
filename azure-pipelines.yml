@@ -23,6 +23,6 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Agent.BuildDirectory)'
+    PathtoPublish: '$(Agent.BuildDirectory)/s/webapp/target'
     ArtifactName: 'drop'
     publishLocation: 'Container'
