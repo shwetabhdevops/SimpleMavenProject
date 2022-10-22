@@ -1,1 +1,1 @@
-<h1>CI using Jenkins, CD using Ansible</h1>
+<h1>CI using Jenkins</h1>
