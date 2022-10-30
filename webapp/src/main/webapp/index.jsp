@@ -1,1 +1,1 @@
-<h1>CI using Jenkins</h1>
+<h1>Welcome to WebMagic Informatica</h1>
