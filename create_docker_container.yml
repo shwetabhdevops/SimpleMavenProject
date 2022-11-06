@@ -6,11 +6,11 @@
     - 
       ignore_errors: true
       name: "stop previous version docker"
-      shell: "docker stop dab8106/javaapp06112022"
+      shell: "docker stop webmagic_demo"
     - 
       ignore_errors: true
       name: "remove stopped container"
-      shell: "docker rm -f dab8106/javaapp06112022"
+      shell: "docker rm -f webmagic_demo"
     - 
       ignore_errors: true
       name: "remove docker images"
