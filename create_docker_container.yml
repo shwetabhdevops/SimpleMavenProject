@@ -6,15 +6,15 @@
     - 
       ignore_errors: true
       name: "stop previous version docker"
-      shell: "docker stop dab8106/$image"
+      shell: "docker stop dab8106/javaapp06112022"
     - 
       ignore_errors: true
       name: "remove stopped container"
-      shell: "docker rm -f dab8106/$image"
+      shell: "docker rm -f dab8106/javaapp06112022"
     - 
       ignore_errors: true
       name: "remove docker images"
-      shell: "docker image rm -f dab8106/$image"
+      shell: "docker image rm -f dab8106/javaapp06112022"
     - 
       name: "create docker image"
-      shell: "docker run -d --name webmagic_demo -p 8090:8080 dab8106/$image"
+      shell: "docker run -d --name webmagic_demo -p 8090:8080 dab8106/javaapp06112022"
